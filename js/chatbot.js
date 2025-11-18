@@ -14,14 +14,14 @@
         const responses = {
             greetings: [
                 "Hello! I'm Destora AI, Joseph's virtual assistant. How can I help you today?",
-                "Hi there! 👋 I'm here to help you learn about Joseph's services. What would you like to know?"
+                "Hi there!  I'm here to help you learn about Joseph's services. What would you like to know?"
             ],
             services: "Joseph offers Full-Stack Web Development, API Development & Integration, Frontend Engineering with React/Next.js, and AI & Chatbot Development. Which service interests you?",
-            pricing: "Project pricing varies based on complexity:\n\n• Simple websites: $500-$1,500\n• E-commerce sites: $2,000-$5,000\n• Custom web apps: $3,000-$10,000+\n• AI chatbots: $1,000-$3,000\n\nWould you like to discuss your specific project?",
+            pricing: "Project pricing varies based on complexity:\n\n Simple websites: $500-$1,500\n• E-commerce sites: $2,000-$5,000\n• Custom web apps: $3,000-$10,000+\n• AI chatbots: $1,000-$3,000\n\nWould you like to discuss your specific project?",
             technologies: "Joseph works with: Flask, Python, Next.js, React, PHP, JavaScript, Webflow, HTML/CSS, FastAPI, and C++. He also integrates APIs like Stripe, Paystack, and Google Maps.",
             experience: "Joseph has 4+ years of experience in software engineering and web development. He's completed 20+ projects for 10+ happy clients, including Travel Afric and Annuva Homes.",
             timeline: "Project timelines typically are:\n\n• Simple websites: 1-2 weeks\n• Medium projects: 3-4 weeks\n• Complex applications: 4-8 weeks\n\nTimelines depend on project scope and your feedback speed.",
-            contact: "You can reach Joseph through:\n\n📧 Email: Destoratech55@gmail.com\n📱 Phone: +233 593 4258 54\n💬 WhatsApp: +233 596 523 065\n\nWould you like me to send him a message about your inquiry?",
+            contact: "You can reach Joseph through:\n\n Email: Destoratech55@gmail.com\n Phone: +233 593 4258 54\n WhatsApp: +233 596 523 065\n\nWould you like me to send him a message about your inquiry?",
             portfolio: "Joseph has worked on impressive projects including:\n\n• Travel Afric - Full travel booking platform with payment integration\n• Annuva Homes - AI chatbot for property management\n• SaaS Dashboards - Analytics and client management tools\n\nWant to see more details?",
             support: "All projects include 30 days of free support for bug fixes and minor adjustments. Extended support and maintenance packages are available separately.",
             location: "Joseph is based in Gomoa Fetteh, Ghana, but works with clients worldwide through remote collaboration.",
@@ -29,10 +29,10 @@
         };
 
         const quickReplies = [
-            { text: "💰 Pricing", keyword: "pricing" },
-            { text: "🛠️ Services", keyword: "services" },
-            { text: "⏱️ Timeline", keyword: "timeline" },
-            { text: "📞 Contact", keyword: "contact" }
+            { text: " Pricing", keyword: "pricing" },
+            { text: " Services", keyword: "services" },
+            { text: " Timeline", keyword: "timeline" },
+            { text: "Contact", keyword: "contact" }
         ];
 
         // Initialize chat
@@ -239,9 +239,9 @@
                     });
                     
                     messageDiv.remove();
-                    addBotMessage("✅ Perfect! Your message has been sent to Joseph. He'll get back to you within 24 hours. You can also reach him directly on WhatsApp: +233 596 523 065");
+                    addBotMessage("Perfect! Your message has been sent to Joseph. He'll get back to you within 24 hours. You can also reach him directly on WhatsApp: +233 596 523 065");
                 } catch (error) {
-                    addBotMessage("❌ Oops! There was an error. Please email Joseph directly at Destoratech55@gmail.com");
+                    addBotMessage("Oops! There was an error. Please email Joseph directly at Destoratech55@gmail.com");
                 }
             });
         }
