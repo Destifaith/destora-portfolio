@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <met#aeb3b8et="utf-8">
+        <meta charset="utf-8">
         <title>Destora-Portfolio</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+         <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Contact DestoraTech - Get in touch with Joseph Felix for web development, software engineering, and automation services" name="description">
+        <meta content="Contact, DestoraTech, Web Development, Software Engineer, Joseph Felix" name="keywords">
+
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -29,6 +30,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/chatbot.css">
     </head>
 
     <body>
@@ -50,14 +52,16 @@
                             <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Back End Developer, Data Analysts</div>
                         </div>
                         <div class="d-flex justify-content-center mt-auto mb-3">
-                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://x.com/Destora_gh"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://www.facebook.com/Revelation.2000"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://www.linkedin.com/in/joseph-felix-olaitan"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="https://www.instagram.com/dinimista_gh/"><i class="fab fa-instagram"></i></a>
+                                                    <a class="btn btn-secondary btn-square mx-1" href="https://wa.me/233596523065" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://discord.com/users/destinyolaitan" target="_blank"><i class="fab fa-discord"></i></a>
                         </div>
                         <div class="d-flex align-items-end justify-content-between border-top">
-                            <a href="" class="btn w-50 border-end">Download CV</a>
-                            <a href="#contact" class="btn w-50 btn-scroll">Contact Me</a>
+                            <a href="cv/DESTINY FELIX.pdf" class="btn w-50" download>Download CV</a>
+                            <a href="contact-us.html" class="btn w-50 btn-scroll">Contact Me</a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +95,7 @@
 
                         <div class="row mb-4">
                             <div class="col-sm-6 py-1">
-                                <span class="fw-medium text-primary">Name:</span> Joseph O. O. Destiny Felix
+                                <span class="fw-medium text-primary">Name:</span> Joseph Destiny Felix
                             </div>
                             <div class="col-sm-6 py-1">
                                 <span class="fw-medium text-primary">Birthday:</span> 29 November 1999
@@ -443,7 +447,7 @@
                         <div class="portfolio-overlay d-flex flex-column align-items-center justify-content-center text-center">
                             <h5 class="text-white mb-2">Personal Portfolio</h5>
                             <p class="text-white-50 px-3">Responsive portfolio website built with HTML, CSS, JS & integrated with Formspree for contact handling.</p>
-                            <a href="#" class="btn btn-outline-light btn-sm mt-2">View Details</a>
+                            <a href="https://destifaith.github.io/destora-portfolio/" class="btn btn-outline-light btn-sm mt-2">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -467,7 +471,9 @@
     transition: all 0.4s ease;
     padding: 20px;
 }
-
+.portfolio-section {
+    margin-bottom: 80px; /* Adjust this value (e.g., 60px, 100px) for the gap size you want */
+}
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
 }
@@ -486,6 +492,11 @@
     color: #000;
 }
 </style>
+
+
+
+
+
 
 
                     <!-- Testimonial Start -->
@@ -549,52 +560,64 @@
 <!-- Testimonial End -->
 
 
-                 <!-- Contact Start -->
-<section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
-  <h1 class="title pb-3 mb-5">Contact Me</h1>
-  <p class="mb-4">
-    I’d love to hear from you. Fill out the form below and I’ll get back to you shortly.
-  </p>
-
-<form action="https://formspree.io/f/mblzvzjg" method="POST" id="contactForm">    <div class="row g-3">
-      <div class="col-md-6">
-        <div class="form-floating">
-          <input type="text" class="form-control border-0 bg-secondary" id="name" name="name" placeholder="Your Name" required>
-          <label for="name">Your Name</label>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="form-floating">
-          <input type="email" class="form-control border-0 bg-secondary" id="email" name="email" placeholder="Your Email" required>
-          <label for="email">Your Email</label>
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="form-floating">
-          <input type="text" class="form-control border-0 bg-secondary" id="subject" name="subject" placeholder="Subject" required>
-          <label for="subject">Subject</label>
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="form-floating">
-          <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" name="message" style="height: 200px" required></textarea>
-          <label for="message">Message</label>
-        </div>
-      </div>
-      <div class="col-12">
-        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-      </div>
-    </div>
-  </form>
-
-  <p id="form-status" class="text-center mt-3"></p>
-</section>
-<!-- Contact End -->
+              
 
 <!-- JS for handling the submission -->
 
 
+<!-- Chat Button -->
+    <div class="chat-button" id="chatButton">
+        <i class="fas fa-comments"></i>
+        <div class="chat-badge" id="chatBadge">1</div>
+    </div>
 
+    <!-- Chat Container -->
+    <div class="chat-container" id="chatContainer">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar">
+                    <i class="fas fa-robot" style="color: #0078ff;"></i>
+                </div>
+                <div class="chat-header-text">
+                    <h3>Destora AI</h3>
+                    <div class="chat-status">
+                        <span class="status-dot"></span>
+                        <span>Online - Here to help!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-close" id="chatClose">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Typing Indicator -->
+            <div class="typing-indicator" id="typingIndicator">
+                <span class="typing-dot"></span>
+                <span class="typing-dot"></span>
+                <span class="typing-dot"></span>
+            </div>
+        </div>
+
+        <!-- Input -->
+        <div class="chat-input-container">
+            <div class="chat-input-wrapper">
+                <input 
+                    type="text" 
+                    class="chat-input" 
+                    id="chatInput" 
+                    placeholder="Type your message..."
+                    autocomplete="off"
+                >
+                <button class="send-btn" id="sendBtn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -602,19 +625,22 @@
                     <section class="wow fadeIn" data-wow-delay="0.1s">
                         <div class="bg-secondary text-light text-center p-5">
                             <div class="d-flex justify-content-center mb-4">
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-dark btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://x.com/Destora_gh"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://www.facebook.com/Revelation.2000"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://www.linkedin.com/in/joseph-felix-olaitan"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://www.instagram.com/dinimista_gh/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-secondary btn-square mx-1" href="https://wa.me/233596523065" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                <a class="btn btn-dark btn-square mx-1" href="https://discord.com/users/destinyolaitan" target="_blank"><i class="fab fa-discord"></i></a>
+
                             </div>
                             <div class="d-flex justify-content-center mb-3">
-                                <a class="text-light px-3 border-end" href="#">Privacy</a>
-                                <a class="text-light px-3 border-end" href="#">Terms</a>
-                                <a class="text-light px-3 border-end" href="#">FAQs</a>
-                                <a class="text-light px-3" href="#">Help</a>
+                                <a class="text-light px-3 border-end" href="privacy.html">Privacy</a>
+                                <a class="text-light px-3 border-end" href="terms.html">Terms</a>
+                                <a class="text-light px-3 border-end" href="contact-us.html">FAQs</a>
+                                <a class="text-light px-3" href="contact-us.html">Help</a>
                             </div>
 							
-							<p class="m-0">&copy; All Rights Reserved. Designed by <a href="#">Destora</a></p>
+							<p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://destifaith.github.io/destora-portfolio/">Destora</a></p>
                         </div>
                     </section>
                     <!-- Footer End -->
@@ -645,5 +671,7 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
         <script src="js/contact.js"></script>
+        <script src="js/chatbot.js"></script>
+
     </body>
 </html>
